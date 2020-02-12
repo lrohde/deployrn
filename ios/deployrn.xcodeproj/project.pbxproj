@@ -221,7 +221,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = KKY728EKXK;
+						DevelopmentTeam = 37BM9G9F46;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -436,10 +436,11 @@
 			baseConfigurationReference = 762F6BFBCE4253AF38015B39 /* Pods-deployrn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 8;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = KKY728EKXK;
+				DEVELOPMENT_TEAM = 37BM9G9F46;
 				INFOPLIST_FILE = deployrn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -447,9 +448,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rocketseat.deployrn;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.westsoftware.deployrn;
 				PRODUCT_NAME = DeployRN;
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.rocketseat.deployrn";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development br.com.westsoftware.deployrn";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -462,7 +463,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 8;
-				DEVELOPMENT_TEAM = KKY728EKXK;
+				DEVELOPMENT_TEAM = 37BM9G9F46;
 				INFOPLIST_FILE = deployrn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -470,9 +471,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rocketseat.deployrn;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.westsoftware.deployrn;
 				PRODUCT_NAME = DeployRN;
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.rocketseat.deployrn";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore br.com.westsoftware.deployrn";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

@@ -21,6 +21,11 @@ or alternatively using `brew cask install fastlane`
 fastlane ios manual_testflight
 ```
 Manual deploy to testflight
+### ios ci_testflight
+```
+fastlane ios ci_testflight
+```
+Automatic deploy to testflight
 
 ----
 
