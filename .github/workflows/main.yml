@@ -69,4 +69,5 @@ jobs:
           MATCH_REPO: git@github.com:lrohde/deployrn-certs.git
           APPLE_ACCOUNT: softwarewest@gmail.com
           TEAM_ID: 37BM9G9F46
+          FASTLANE_ITC_TEAM_ID: 119415353
         run: fastlane ci_testflight
