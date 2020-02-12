@@ -7,7 +7,7 @@ platform :ios do
     match(
       type: "appstore",
       readonly: true,
-      git_url: "git@github.com:diego3g/deployrn-certs.git"
+      git_url: "git@github.com:lrohde/deployrn-certs.git"
     )
 
     increment_build_number(
@@ -37,7 +37,7 @@ platform :ios do
     )
 
     match(
-      git_url: "https://diego3g:#{ENV["CI_TOKEN"]}@github.com/diego3g/deployrn-certs.git",
+      git_url: "https://lrohde:#{ENV["CI_TOKEN"]}@github.com/lrohde/deployrn-certs.git",
       keychain_name: "actiontest_keychain",
       keychain_password: "citest",
       readonly: is_ci,
@@ -62,7 +62,7 @@ platform :ios do
     )
 
     upload_to_testflight(
-      username: "ci@rocketseat.dev",
+      username: "luan@westsoftware.com.br",
       skip_waiting_for_build_processing: true
     )
 

@@ -1,4 +1,4 @@
-app_identifier "com.rocketseat.deployrn"
+app_identifier "br.com.westsoftware.deployrn"
 
 apple_id ENV["APPLE_ACCOUNT"]
 team_id ENV["TEAM_ID"]
